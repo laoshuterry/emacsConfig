@@ -1,0 +1,35 @@
+;; Object proc/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "proc/"
+  :tables
+  (list
+    (semanticdb-table "shell2.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("apue.h" include nil nil [1 18])
+            ("sys/wait.h" include (:system-flag t) nil [19 40])
+            ("sig_int" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [62 66]))                  
+                :type "void")
+                nil [42 67])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [114 119]))                  
+                :type "int")
+                nil [105 770])
+            ("sig_int" function
+               (:arguments 
+                  ( ("signo" variable (:type "int") (reparse-symbol arg-sub-list) [785 795]))                  
+                :type "void")
+                nil [772 826]))          
+      :file "shell2.c"
+      :pointmax 827
+      :fsize 826
+      :lastmodtime '(17043 5934 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!Terry!快盘同步盘!CodeLibrary!C!APUE.2e!proc!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

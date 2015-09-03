@@ -1,0 +1,27 @@
+;; Object Terry/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Terry/"
+  :tables
+  (list
+    (semanticdb-table "1.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 18])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [28 37])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [38 51]))                  
+                :type "int")
+                nil [19 95]))          
+      :file "1.c"
+      :pointmax 96
+      :fsize 95
+      :lastmodtime '(21617 63168 0 0)
+      :unmatched-syntax '((thing 19 . 19) (thing 19 . 19) (thing 19 . 19) (thing 16 . 17) (thing 15 . 16) (thing 10 . 15) (thing 10 . 12) (thing 10 . 11) (thing 9 . 10) (thing 9 . 10) (thing 9 . 10) (thing 9 . 10) (thing 2 . 9) (thing 2 . 9) (thing 2 . 9) (thing 2 . 9) (thing 2 . 6) (thing 1 . 2) (thing 1 . 2) (thing 1 . 2) (thing 1 . 2) (thing 1 . 2))))
+  :file "!Users!Terry!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

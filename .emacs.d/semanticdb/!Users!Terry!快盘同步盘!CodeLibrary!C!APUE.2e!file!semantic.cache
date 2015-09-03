@@ -1,0 +1,55 @@
+;; Object file/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "file/"
+  :tables
+  (list
+    (semanticdb-table "hello.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("apue.h" include nil nil [1 18])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [29 34]))                  
+                :type "int")
+                nil [20 103]))          
+      :file "hello.c"
+      :pointmax 104
+      :fsize 103
+      :lastmodtime '(17043 5930 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "testerror.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("apue.h" include nil nil [1 18])
+            ("errno.h" include (:system-flag t) nil [19 37])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [48 57])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [58 71]))                  
+                :type "int")
+                nil [39 172]))          
+      :file "testerror.c"
+      :pointmax 173
+      :fsize 172
+      :lastmodtime '(17043 5930 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "solaris.mk"
+      :major-mode 'makefile-bsdmake-mode
+      :tags 
+        '( ("../Make.defines.solaris" include nil nil [1 33])
+            ("PROGS" variable (:default-value ("access" "cdpwd" "changemod" "devrdev" "fileflags" "filetype" "ftw4" "hello" "hole" "longpath" "ls1" "mycd" "seek" "testerror" "uidgid" "umask" "unlink" "zap")) nil [34 173])
+            ("all" function (:arguments ("${PROGS}")) nil [174 188])
+            ("savedid" function (:arguments ("savedid.o")) nil [189 251])
+            ("clean" function nil nil [252 298]))          
+      :file "solaris.mk"
+      :pointmax 298
+      :fsize 297
+      :lastmodtime '(17046 11754 0 0)
+      :unmatched-syntax '((thing 260 . 297) (thing 259 . 259))))
+  :file "!Users!Terry!快盘同步盘!CodeLibrary!C!APUE.2e!file!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

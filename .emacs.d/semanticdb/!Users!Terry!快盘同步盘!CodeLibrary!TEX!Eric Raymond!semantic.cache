@@ -1,0 +1,19 @@
+;; Object Eric Raymond/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Eric Raymond/"
+  :tables
+  (list
+    (semanticdb-table "makefile"
+      :major-mode 'makefile-bsdmake-mode
+      :tags 
+        '( ("PAGE" variable (:default-value ("1")) nil [1 8])
+            ("xpdf" function (:arguments ("eric_raymond.pdf")) nil [9 84])
+            ("all" function (:arguments ("eric_raymond.tex" "esr_1.tex" "esr_2.tex" "esr_3.tex" "esr_4.tex" "esr_5.tex")) nil [84 262]))          
+      :file "makefile"
+      :pointmax 263
+      :fsize 262
+      :lastmodtime '(18641 41999 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!Terry!快盘同步盘!CodeLibrary!TEX!Eric Raymond!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

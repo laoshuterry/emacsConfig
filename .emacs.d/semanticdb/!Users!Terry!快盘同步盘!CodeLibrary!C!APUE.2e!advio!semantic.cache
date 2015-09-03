@@ -1,0 +1,28 @@
+;; Object advio/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "advio/"
+  :tables
+  (list
+    (semanticdb-table "catgetmsg.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("apue.h" include nil nil [1 18])
+            ("stropts.h" include (:system-flag t) nil [19 39])
+            ("BUFFSIZE" variable (:constant-flag t) nil [49 57])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [73 78]))                  
+                :type "int")
+                nil [64 628]))          
+      :file "catgetmsg.c"
+      :pointmax 629
+      :fsize 628
+      :lastmodtime '(17043 5928 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BUFFSIZE" . ((number "4096" 58 . 62)))
+          )
+))
+  :file "!Users!Terry!快盘同步盘!CodeLibrary!C!APUE.2e!advio!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

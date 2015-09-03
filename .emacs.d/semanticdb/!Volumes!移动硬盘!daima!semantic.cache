@@ -1,0 +1,258 @@
+;; Object daima/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "daima/"
+  :tables
+  (list
+    (semanticdb-table "NPC.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("stdafx.h" include nil nil [1 20])
+            ("NPC.h" include nil nil [21 37])
+            ("NPC" function
+               (:constructor-flag t
+                :parent "NPC"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [49 54]))                  
+                :type ("NPC" type (:type "class") nil nil))
+                nil [40 99])
+            ("NPC" function
+               (:constructor-flag t
+                :parent "NPC"
+                :arguments 
+                  ( ("hp" variable (:type "int") (reparse-symbol arg-sub-list) [109 116]))                  
+                :type ("NPC" type (:type "class") nil nil))
+                nil [100 160])
+            ("NPC" function
+               (:destructor-flag t
+                :parent "NPC"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [171 176]))                  
+                :type "void")
+                nil [161 216])
+            ("setHp" function
+               (:parent "NPC"
+                :arguments 
+                  ( ("hp" variable (:type "int") (reparse-symbol arg-sub-list) [233 240]))                  
+                :type "void")
+                nil [217 278])
+            ("getHp" function
+               (:parent "NPC"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [295 300]))                  
+                :type "int")
+                nil [279 322])
+            ("move" function
+               (:parent "NPC"
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [338 344])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [345 351]))                  
+                :type "void")
+                nil [323 426])
+            ("fire" function
+               (:parent "NPC"
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [442 448])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [449 455]))                  
+                :type "void")
+                nil [427 506])
+            ("fire" function
+               (:parent "NPC"
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [522 528])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [529 535])
+                    ("z" variable (:type "int") (reparse-symbol arg-sub-list) [536 542]))                  
+                :type "void")
+                nil [507 603]))          
+      :file "NPC.cpp"
+      :pointmax 604
+      :fsize 666
+      :lastmodtime '(21901 17272 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "stdafx.h"
+      :file "stdafx.h"
+      :fsize 254
+      :lastmodtime '(21900 57256 0 0))
+    (semanticdb-table "NPC.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("__NPC_H__" variable (:constant-flag t) nil [27 36])
+            ("iostream" include (:system-flag t) nil [37 56])
+            ("string" include (:system-flag t) nil [57 74])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [75 95])
+            ("NPC" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [123 131])
+                    ("hp" variable (:type "int") (reparse-symbol classsubparts) [133 141])
+                    ("public" label nil (reparse-symbol classsubparts) [148 155])
+                    ("nName" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [165 178])
+                    ("px" variable (:type "int") (reparse-symbol classsubparts) [186 196])
+                    ("py" variable (:type "int") (reparse-symbol classsubparts) [186 196])
+                    ("NPC" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [206 211]))                          
+                        :type ("NPC" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [202 212])
+                    ("NPC" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("hp" variable (:type "int") (reparse-symbol arg-sub-list) [218 225]))                          
+                        :type ("NPC" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [214 226])
+                    ("NPC" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [268 273]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [263 274])
+                    ("setHp" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("hp" variable (:type "int") (reparse-symbol arg-sub-list) [287 294]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [276 295])
+                    ("getHp" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [308 313]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [297 314])
+                    ("move" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [326 332])
+                            ("y" variable (:type "int") (reparse-symbol arg-sub-list) [333 339]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [316 340])
+                    ("fire" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [352 358])
+                            ("y" variable (:type "int") (reparse-symbol arg-sub-list) [359 365]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [342 366])
+                    ("fire" function
+                       (:prototype-flag t
+                        :typemodifiers ("virtual")
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [392 398])
+                            ("y" variable (:type "int") (reparse-symbol arg-sub-list) [399 405])
+                            ("z" variable (:type "int") (reparse-symbol arg-sub-list) [406 412]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [374 413]))                  
+                :type "class")
+                nil [96 520]))          
+      :file "NPC.h"
+      :pointmax 528
+      :fsize 671
+      :lastmodtime '(21901 32696 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__NPC_H__")
+          )
+)
+    (semanticdb-table "SpiderMan.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("stdafx.h" include nil nil [1 20])
+            ("SpiderMan.h" include nil nil [21 43])
+            ("SpiderMan" function
+               (:constructor-flag t
+                :parent "SpiderMan"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [67 72]))                  
+                :type ("SpiderMan" type (:type "class") nil nil))
+                nil [46 120])
+            ("SpiderMan" function
+               (:destructor-flag t
+                :parent "SpiderMan"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [143 148]))                  
+                :type "void")
+                nil [121 152])
+            ("fly" function
+               (:parent "SpiderMan"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [173 178]))                  
+                :type "void")
+                nil [153 215])
+            ("fire" function
+               (:parent "SpiderMan"
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [237 243])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [244 250])
+                    ("z" variable (:type "int") (reparse-symbol arg-sub-list) [251 257]))                  
+                :type "void")
+                nil [216 318]))          
+      :file "SpiderMan.cpp"
+      :pointmax 318
+      :fsize 364
+      :lastmodtime '(21901 31956 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "SpiderMan.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("__SPIDERMAN_H__" variable (:constant-flag t) nil [33 48])
+            ("npc.h" include nil nil [49 65])
+            ("SpiderMan" type
+               (:superclasses 
+                  ( ("NPC" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [116 123])
+                    ("flyHeight" variable (:type "int") (reparse-symbol classsubparts) [125 139])
+                    ("flySpeed" variable (:type "int") (reparse-symbol classsubparts) [141 154])
+                    ("SpiderMan" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [167 172]))                          
+                        :type ("SpiderMan" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [157 173])
+                    ("SpiderMan" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [215 220]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [204 221])
+                    ("fly" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [232 237]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [223 238])
+                    ("fire" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [250 256])
+                            ("y" variable (:type "int") (reparse-symbol arg-sub-list) [257 263])
+                            ("z" variable (:type "int") (reparse-symbol arg-sub-list) [264 270]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [240 271]))                  
+                :type "class")
+                nil [66 297]))          
+      :file "SpiderMan.h"
+      :pointmax 306
+      :fsize 375
+      :lastmodtime '(21901 32638 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__SPIDERMAN_H__")
+          )
+)
+    (semanticdb-table "npc.h"
+      :file "npc.h"
+      :fsize 671
+      :lastmodtime '(21901 32696 0 0)))
+  :file "!Volumes!移动硬盘!daima!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

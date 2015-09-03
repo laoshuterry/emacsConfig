@@ -1,0 +1,29 @@
+;; Object CppTest/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "CppTest/"
+  :tables
+  (list
+    (semanticdb-table "CppTest.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("stdafx.h" include nil nil [37 56])
+            ("NPC.h" include nil nil [57 73])
+            ("SpiderMan.h" include nil nil [74 96])
+            ("_tmain" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [109 118])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type ("_TCHAR" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [119 134]))                  
+                :type "int")
+                nil [98 1908]))          
+      :file "CppTest.cpp"
+      :pointmax 1910
+      :fsize 2235
+      :lastmodtime '(21911 37564 0 0)
+      :unmatched-syntax nil))
+  :file "!Volumes!移动硬盘!CppTest!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

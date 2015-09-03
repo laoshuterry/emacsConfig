@@ -1,0 +1,60 @@
+;; Object Downloads/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Downloads/"
+  :tables
+  (list
+    (semanticdb-table "example2-4.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("User_Database" variable nil nil [1 81])
+            ("user" variable nil nil [83 112])
+            ("passwd" variable nil nil [114 146])
+            ("if" code nil nil [149 200])
+            ("user" code nil nil [205 209])
+            ("User_Database" code nil nil [215 228]))          
+      :file "example2-4.py"
+      :pointmax 229
+      :fsize 240
+      :lastmodtime '(21858 59792 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "test.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("sys" include nil nil [50 60])
+            ("PyQt4.QtGui" include nil nil [61 86])
+            ("a" variable nil nil [127 153])
+            ("w" variable nil nil [242 255])
+            ("w" code nil nil [278 296])
+            ("w" code nil nil [320 350])
+            ("btn" variable nil nil [369 405])
+            ("btn" code nil nil [406 438])
+            ("btn" code nil nil [439 464])
+            ("btn" code nil nil [465 491])
+            ("btn" code nil nil [492 510])
+            ("w" code nil nil [534 542])
+            ("sys" code nil nil [546 565]))          
+      :file "test.py"
+      :pointmax 566
+      :fsize 594
+      :lastmodtime '(21886 18960 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "example2-1.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("month" variable nil nil [25 142])
+            ("dayEndings" code nil nil [144 214])
+            ("strYearNumber" variable nil nil [229 265])
+            ("strMonthNumber" variable nil nil [267 304])
+            ("strDayNumber" variable nil nil [306 341])
+            ("intMonthNumber" variable nil nil [369 405])
+            ("intDayNumber" variable nil nil [407 439])
+            ("monthName" variable nil nil [442 477])
+            ("dayName" code nil nil [479 528]))          
+      :file "example2-1.py"
+      :pointmax 578
+      :fsize 626
+      :lastmodtime '(21850 63698 0 0)
+      :unmatched-syntax '((thing 531 . 536) (thing 578 . 578))))
+  :file "!Volumes!移动硬盘!Downloads!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

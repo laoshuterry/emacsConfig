@@ -1,0 +1,50 @@
+;; Object sunxi/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "sunxi/"
+  :tables
+  (list
+    (semanticdb-table "board.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("common.h" include (:system-flag t) nil [375 394])
+            ("mmc.h" include (:system-flag t) nil [395 411])
+            ("asm/arch/clock.h" include (:system-flag t) nil [574 601])
+            ("asm/arch/cpu.h" include (:system-flag t) nil [602 627])
+            ("asm/arch/display.h" include (:system-flag t) nil [628 657])
+            ("asm/arch/dram.h" include (:system-flag t) nil [658 684])
+            ("asm/arch/gpio.h" include (:system-flag t) nil [685 711])
+            ("asm/arch/mmc.h" include (:system-flag t) nil [712 737])
+            ("asm/arch/usb_phy.h" include (:system-flag t) nil [738 767])
+            ("asm/gpio.h" include (:system-flag t) nil [768 789])
+            ("asm/io.h" include (:system-flag t) nil [790 809])
+            ("net.h" include (:system-flag t) nil [810 826])
+            ("soft_i2c_board_init" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2014 2019]))                  
+                :type "int")
+                nil [1983 2033])
+            ("DECLARE_GLOBAL_DATA_PTR" variable (:type "int") nil [2042 2066])
+            ("board_init" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2118 2123]))                  
+                :type "int")
+                nil [2103 2639])
+            ("dram_init" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2655 2660]))                  
+                :type "int")
+                nil [2641 2747])
+            ("i2c_init_board" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9440 9445]))                  
+                :type "void")
+                nil [9420 12091]))          
+      :file "board.c"
+      :pointmax 15551
+      :fsize 15550
+      :lastmodtime '(21964 48402 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!Terry!Developer!Ubuntu!u-boot-sunxi!board!sunxi!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

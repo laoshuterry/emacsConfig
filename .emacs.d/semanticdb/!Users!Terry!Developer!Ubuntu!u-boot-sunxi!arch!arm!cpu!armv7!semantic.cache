@@ -1,0 +1,37 @@
+;; Object armv7/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "armv7/"
+  :tables
+  (list
+    (semanticdb-table "cpu.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("common.h" include (:system-flag t) nil [320 339])
+            ("command.h" include (:system-flag t) nil [340 360])
+            ("asm/system.h" include (:system-flag t) nil [361 384])
+            ("asm/cache.h" include (:system-flag t) nil [385 407])
+            ("asm/armv7.h" include (:system-flag t) nil [408 430])
+            ("linux/compiler.h" include (:system-flag t) nil [431 458])
+            ("cpu_cache_initialization" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [497 502]))                  
+                :type ("__attribute__((objc_gc(weak)))" type (:type "class") nil nil))
+                nil [465 504])
+            ("cleanup_before_linux_select" function
+               (:arguments 
+                  ( ("flags" variable (:type "int") (reparse-symbol arg-sub-list) [538 548]))                  
+                :type "int")
+                nil [506 1741])
+            ("cleanup_before_linux" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1768 1773]))                  
+                :type "int")
+                nil [1743 1823]))          
+      :file "cpu.c"
+      :pointmax 1824
+      :fsize 1823
+      :lastmodtime '(21964 48402 0 0)
+      :unmatched-syntax '((thing 460 . 464))))
+  :file "!Users!Terry!Developer!Ubuntu!u-boot-sunxi!arch!arm!cpu!armv7!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

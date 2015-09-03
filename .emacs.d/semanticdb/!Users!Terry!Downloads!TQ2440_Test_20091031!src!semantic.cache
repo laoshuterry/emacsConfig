@@ -1,0 +1,590 @@
+;; Object src/
+;; SEMANTICDB Tags save file
+    (semanticdb-project-database-file "src/"
+      :tables
+      (list
+        (semanticdb-table "Main.c"
+          :major-mode 'c-mode
+          :tags 
+        '( ("GLOBAL_CLK" variable (:constant-flag t) nil [202 212])
+            ("stdlib.h" include (:system-flag t) nil [217 236])
+            ("string.h" include (:system-flag t) nil [237 256])
+            ("def.h" include nil nil [257 273])
+            ("option.h" include nil nil [274 293])
+            ("2440addr.h" include nil nil [294 315])
+            ("2440lib.h" include nil nil [316 336])
+            ("2440slib.h" include nil nil [337 358])
+            ("mmu.h" include nil nil [359 375])
+            ("profile.h" include nil nil [376 396])
+            ("memtest.h" include nil nil [397 417])
+            ("Image$$RO$$Limit" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [419 450])
+            ("Image$$RO$$Base" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [451 481])
+            ("Image$$RW$$Limit" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [482 513])
+            ("Image$$RW$$Base" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [514 544])
+            ("Image$$ZI$$Limit" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [545 576])
+            ("Image$$ZI$$Base" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [577 607])
+            ("Isr_Init" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [623 628]))                  
+                :type "void")
+                nil [609 629])
+            ("HaltUndef" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [645 650]))                  
+                :type "void")
+                nil [630 651])
+            ("HaltSwi" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [665 670]))                  
+                :type "void")
+                nil [652 671])
+            ("HaltPabort" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [688 693]))                  
+                :type "void")
+                nil [672 694])
+            ("HaltDabort" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [711 716]))                  
+                :type "void")
+                nil [695 717])
+            ("ClearMemory" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [735 740]))                  
+                :type "void")
+                nil [718 741])
+            ("Clk0_Enable" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("clock_sel" variable (:type "int") (reparse-symbol arg-sub-list) [761 775]))                  
+                :type "void")
+                nil [744 776])
+            ("Clk1_Enable" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("clock_sel" variable (:type "int") (reparse-symbol arg-sub-list) [795 809]))                  
+                :type "void")
+                nil [778 810])
+            ("Clk0_Disable" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [829 834]))                  
+                :type "void")
+                nil [811 835])
+            ("Clk1_Disable" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [854 859]))                  
+                :type "void")
+                nil [836 860])
+            ("Lcd_TFT_Init" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [887 892]))                  
+                :type "void")
+                nil [862 893])
+            ("Lcd_TFT_Test" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [920 926]))                  
+                :type "void")
+                nil [894 928])
+            ("Test_Touchpanel" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [957 962]))                  
+                :type "void")
+                nil [929 964])
+            ("Test_Adc" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [986 991]))                  
+                :type "void")
+                nil [965 993])
+            ("KeyScan_Test" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1019 1024]))                  
+                :type "void")
+                nil [994 1026])
+            ("RTC_Display" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1051 1056]))                  
+                :type "void")
+                nil [1027 1058])
+            ("Test_IrDA_Tx" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1084 1089]))                  
+                :type "void")
+                nil [1059 1091])
+            ("PlayMusicTest" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1118 1123]))                  
+                :type "void")
+                nil [1092 1125])
+            ("RecordTest" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1150 1156]))                  
+                :type "void")
+                nil [1126 1158])
+            ("Test_Iic" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1180 1185]))                  
+                :type "void")
+                nil [1159 1187])
+            ("Test_SDI" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1209 1214]))                  
+                :type "void")
+                nil [1188 1216])
+            ("Camera_Test" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1242 1248]))                  
+                :type "void")
+                nil [1217 1250])
+            ("downloadAddress" variable
+               (:typemodifiers ("volatile")
+                :type ("U32" type (:type "class") nil nil))
+                nil [1252 1281])
+            ("downPt" variable
+               (:pointer 1
+                :typemodifiers ("volatile")
+                :type "unsigned char")
+                nil [1327 1358])
+            ("downloadFileSize" variable
+               (:typemodifiers ("volatile")
+                :type ("U32" type (:type "class") nil nil))
+                nil [1359 1389])
+            ("checkSum" variable
+               (:typemodifiers ("volatile")
+                :type ("U16" type (:type "class") nil nil))
+                nil [1390 1412])
+            ("err" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type "unsigned int")
+                nil [1413 1441])
+            ("totalDmaCount" variable
+               (:typemodifiers ("volatile")
+                :type ("U32" type (:type "class") nil nil))
+                nil [1442 1469])
+            ("isUsbdSetConfiguration" variable
+               (:typemodifiers ("volatile")
+                :type "int")
+                nil [1471 1507])
+            ("download_run" variable
+               (:default-value "0"
+                :type "int")
+                nil [1509 1528])
+            ("tempDownloadAddress" variable (:type ("U32" type (:type "class") nil nil)) nil [1529 1553])
+            ("menuUsed" variable
+               (:default-value "0"
+                :type "int")
+                nil [1554 1569])
+            ("Image$$RW$$Limit" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [1571 1602])
+            ("pMagicNum" variable
+               (:pointer 1
+                :default-value "(U32 *)Image$$RW$$Limit"
+                :type ("U32" type (:type "class") nil nil))
+                nil [1603 1642])
+            ("consoleNum" variable (:type "int") nil [1643 1658])
+            ("cpu_freq" variable
+               (:typemodifiers ("static")
+                :type ("U32" type (:type "class") nil nil))
+                nil [1660 1680])
+            ("UPLL" variable
+               (:typemodifiers ("static")
+                :type ("U32" type (:type "class") nil nil))
+                nil [1681 1697])
+            ("cal_cpu_bus_clk" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1726 1731]))                  
+                :type "void")
+                nil [1698 2467])
+            ("Temp_function" function (:type "void") nil [2470 2550])
+            ("CmdTip" variable
+               (:dereference 1
+                :default-value "{
+				{ Temp_function, \"Please input 1-11 to select test\" } ,
+				{ BUZZER_PWM_Test, \"Test PWM\" } ,
+				{ RTC_Display, \"RTC time display\" } ,
+				{ Test_Adc, \"Test ADC\" } ,
+				{ KeyScan_Test, \"Test interrupt and key scan\" } ,
+				{ Test_Touchpanel, \"Test Touchpanel\" } ,
+				{ Lcd_TFT_Test, \"Test TFT LCD\" } ,
+				{ Test_Iic, \"Test IIC EEPROM\" } ,
+				{ PlayMusicTest, \"UDA1341 play music\" } ,
+				{ RecordTest, \"UDA1341 record voice\" } ,
+				{ Test_SDI, \"Test SD Card\" } ,
+				{ Camera_Test, \"Test CMOS Camera\"},
+				{ 0, 0}						
+			}"
+                :type ("" type
+                     (:members 
+                        ( ("fun" function
+                             (:prototype-flag t
+                              :function-pointer t
+                              :arguments 
+                                ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2574 2579]))                                
+                              :type "void")
+                              (reparse-symbol classsubparts) [2562 2580])
+                          ("tip" variable
+                             (:pointer 1
+                              :type "char")
+                              (reparse-symbol classsubparts) [2582 2592]))                        
+                      :type "struct")
+                      nil nil))
+                nil [2552 3143])
+            ("Main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3156 3161]))                  
+                :type "void")
+                nil [3146 5150])
+            ("Isr_Init" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5166 5171]))                  
+                :type "void")
+                nil [5152 5392])
+            ("HaltUndef" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5410 5415]))                  
+                :type "void")
+                nil [5395 5484])
+            ("HaltSwi" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5499 5504]))                  
+                :type "void")
+                nil [5486 5555])
+            ("HaltPabort" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5573 5578]))                  
+                :type "void")
+                nil [5557 5632])
+            ("HaltDabort" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5650 5655]))                  
+                :type "void")
+                nil [5634 5709])
+            ("ClearMemory" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5729 5734]))                  
+                :type "void")
+                nil [5712 5968])
+            ("Clk0_Enable" function
+               (:arguments 
+                  ( ("clock_sel" variable (:type "int") (reparse-symbol arg-sub-list) [5987 6001]))                  
+                :type "void")
+                nil [5970 6143])
+            ("Clk1_Enable" function
+               (:arguments 
+                  ( ("clock_sel" variable (:type "int") (reparse-symbol arg-sub-list) [6161 6175]))                  
+                :type "void")
+                nil [6144 6317])
+            ("Clk0_Disable" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6336 6341]))                  
+                :type "void")
+                nil [6318 6388])
+            ("Clk1_Disable" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6407 6412]))                  
+                :type "void")
+                nil [6389 6460]))          
+          :file "Main.c"
+          :pointmax 6462
+          :fsize 6796
+          :lastmodtime '(18714 22526 0 0)
+          :unmatched-syntax '((thing 1324 . 1325) (thing 1321 . 1324) (thing 1305 . 1321) (thing 1304 . 1305) (thing 1298 . 1304) (thing 1288 . 1298) (thing 1283 . 1287))
+          :lexical-table 
+        '(("GLOBAL_CLK" . ((number "1" 214 . 215)))
+          )
+)
+        (semanticdb-table "Touchpanel.c"
+          :major-mode 'c-mode
+          :tags 
+        '( ("def.h" include nil nil [141 157])
+            ("2440addr.h" include nil nil [158 179])
+            ("2440lib.h" include nil nil [180 200])
+            ("REQCNT" variable (:constant-flag t) nil [211 217])
+            ("ADCPRS" variable (:constant-flag t) nil [229 235])
+            ("LOOP" variable (:constant-flag t) nil [246 250])
+            ("AdcTsAuto" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [275 280]))                  
+                :type ("__irq" type (:type "class") nil nil))
+                nil [259 281])
+            ("count" variable
+               (:default-value "0"
+                :type "int")
+                nil [283 295])
+            ("xdata" variable
+               (:typemodifiers ("volatile")
+                :type "int")
+                nil [296 322])
+            ("ydata" variable
+               (:typemodifiers ("volatile")
+                :type "int")
+                nil [296 322])
+            ("Test_Touchpanel" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [349 354]))                  
+                :type "void")
+                nil [328 935])
+            ("AdcTsAuto" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [959 964]))                  
+                :type ("__irq" type (:type "class") nil nil))
+                nil [943 2444]))          
+          :file "Touchpanel.c"
+          :pointmax 2445
+          :fsize 2539
+          :lastmodtime '(18714 29304 0 0)
+          :unmatched-syntax '((thing 938 . 942) (thing 254 . 258))
+          :lexical-table 
+        '(("ADCPRS" . ((number "9" 236 . 237)))
+          ("REQCNT" . ((number "30" 218 . 220)))
+          ("LOOP" . ((number "1" 251 . 252)))
+          )
+)
+        (semanticdb-table "2440lib.c"
+          :major-mode 'c-mode
+          :tags 
+        '( ("def.h" include nil nil [233 249])
+            ("option.h" include nil nil [250 269])
+            ("2440addr.h" include nil nil [270 291])
+            ("2440lib.h" include nil nil [292 312])
+            ("2440slib.h" include nil nil [313 334])
+            ("stdarg.h" include (:system-flag t) nil [337 356])
+            ("string.h" include (:system-flag t) nil [357 376])
+            ("stdlib.h" include (:system-flag t) nil [377 396])
+            ("stdio.h" include (:system-flag t) nil [397 415])
+            ("ctype.h" include (:system-flag t) nil [416 434])
+            ("Image$$RW$$Limit" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [436 467])
+            ("mallocPt" variable
+               (:pointer 1
+                :default-value "Image$$RW$$Limit"
+                :type "void")
+                nil [468 500])
+            ("Delay" function
+               (:arguments 
+                  ( ("time" variable (:type "int") (reparse-symbol arg-sub-list) [604 613]))                  
+                :type "void")
+                nil [593 1024])
+            ("Port_Init0" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1133 1138]))                  
+                :type "void")
+                nil [1117 6550])
+            ("Port_Init" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6567 6572]))                  
+                :type "void")
+                nil [6552 12508])
+            ("whichUart" variable
+               (:typemodifiers ("static")
+                :default-value "0"
+                :type "int")
+                nil [12578 12601])
+            ("Uart_Init" function
+               (:arguments 
+                  ( ("pclk" variable (:type "int") (reparse-symbol arg-sub-list) [12618 12627])
+                    ("baud" variable (:type "int") (reparse-symbol arg-sub-list) [12627 12636]))                  
+                :type "void")
+                nil [12603 13911])
+            ("Uart_Select" function
+               (:arguments 
+                  ( ("ch" variable (:type "int") (reparse-symbol arg-sub-list) [14000 14007]))                  
+                :type "void")
+                nil [13983 14031])
+            ("Uart_TxEmpty" function
+               (:arguments 
+                  ( ("ch" variable (:type "int") (reparse-symbol arg-sub-list) [14121 14128]))                  
+                :type "void")
+                nil [14103 14411])
+            ("Uart_Getch" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [14501 14506]))                  
+                :type "char")
+                nil [14485 14899])
+            ("Uart_GetKey" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [14989 14994]))                  
+                :type "char")
+                nil [14972 15489])
+            ("Uart_GetString" function
+               (:arguments 
+                  ( ("string" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [15582 15595]))                  
+                :type "void")
+                nil [15562 15998])
+            ("Uart_GetIntNum" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [16091 16096]))                  
+                :type "int")
+                nil [16072 17276])
+            ("Uart_GetIntNum_GJ" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [17488 17493]))                  
+                :type "int")
+                nil [17466 17904])
+            ("Uart_SendByte" function
+               (:arguments 
+                  ( ("data" variable (:type "int") (reparse-symbol arg-sub-list) [18077 18086]))                  
+                :type "void")
+                nil [18058 18905])
+            ("Uart_SendString" function
+               (:arguments 
+                  ( ("pt" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [19014 19023]))                  
+                :type "void")
+                nil [18993 19072])
+            ("Uart_Printf" function
+               (:arguments 
+                  ( ("fmt" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [19230 19240])
+                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [19240 19244]))                  
+                :type "void")
+                nil [19213 19365])
+            ("Led_Display" function
+               (:arguments 
+                  ( ("data" variable (:type "int") (reparse-symbol arg-sub-list) [19460 19469]))                  
+                :type "void")
+                nil [19443 19989])
+            ("Buzzer_Freq_Set" function
+               (:arguments 
+                  ( ("freq" variable (:type ("U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [20088 20098]))                  
+                :type "void")
+                nil [20066 20480])
+            ("Buzzer_Stop" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [20500 20506]))                  
+                :type "void")
+                nil [20482 20580])
+            ("Beep" function
+               (:arguments 
+                  ( ("freq" variable (:type ("U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [20667 20676])
+                    ("ms" variable (:type ("U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [20677 20684]))                  
+                :type "void")
+                nil [20657 20747])
+            ("BUZZER_PWM_Test" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [20953 20959]))                  
+                :type "void")
+                nil [20931 21587])
+            ("Timer_Start" function
+               (:arguments 
+                  ( ("divider" variable (:type "int") (reparse-symbol arg-sub-list) [21675 21687]))                  
+                :type "void")
+                nil [21658 21999])
+            ("Timer_Stop" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [22084 22089]))                  
+                :type "int")
+                nil [22069 22153])
+            ("ChangeMPllValue" function
+               (:arguments 
+                  ( ("mdiv" variable (:type "int") (reparse-symbol arg-sub-list) [22244 22253])
+                    ("pdiv" variable (:type "int") (reparse-symbol arg-sub-list) [22253 22262])
+                    ("sdiv" variable (:type "int") (reparse-symbol arg-sub-list) [22262 22271]))                  
+                :type "void")
+                nil [22223 22318])
+            ("ChangeClockDivider" function
+               (:arguments 
+                  ( ("hdivn_val" variable (:type "int") (reparse-symbol arg-sub-list) [22413 22427])
+                    ("pdivn_val" variable (:type "int") (reparse-symbol arg-sub-list) [22427 22441]))                  
+                :type "void")
+                nil [22389 23356])
+            ("ChangeUPllValue" function
+               (:arguments 
+                  ( ("mdiv" variable (:type "int") (reparse-symbol arg-sub-list) [23449 23458])
+                    ("pdiv" variable (:type "int") (reparse-symbol arg-sub-list) [23458 23467])
+                    ("sdiv" variable (:type "int") (reparse-symbol arg-sub-list) [23467 23476]))                  
+                :type "void")
+                nil [23428 23523])
+            ("malloc" function
+               (:pointer 1
+                :arguments 
+                  ( ("nbyte" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [23609 23624]))                  
+                :type "void")
+                nil [23595 23903])
+            ("free" function
+               (:arguments 
+                  ( ("pt" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [23985 23994]))                  
+                :type "void")
+                nil [23975 24014]))          
+          :file "2440lib.c"
+          :pointmax 24015
+          :fsize 24733
+          :lastmodtime '(19089 4954 0 0)
+          :unmatched-syntax nil))
+      :file "!Users!Terry!Downloads!TQ2440_Test_20091031!src!semantic.cache"
+      :semantic-tag-version "2.0"
+      :semanticdb-version "2.2")
